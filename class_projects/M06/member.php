@@ -6,13 +6,13 @@ session_start();
 
 //create short variable names
 if (!isset($_POST['username']))  {
-  //if not isset -> set with dummy value
-  $_POST['username'] = " ";
+  //if not isset -> set with dummy value 
+  $_POST['username'] = " "; 
 }
 $username = $_POST['username'];
 if (!isset($_POST['passwd']))  {
-  //if not isset -> set with dummy value
-  $_POST['passwd'] = " ";
+  //if not isset -> set with dummy value 
+  $_POST['passwd'] = " "; 
 }
 $passwd = $_POST['passwd'];
 
